@@ -12,6 +12,7 @@
 
     {{-- css link --}}
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/card.css">
 
     <title>Dapur Malioboro | Home</title>
 </head>
