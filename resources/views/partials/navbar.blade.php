@@ -31,9 +31,6 @@
                 <a class="nav-link mx-lg-2 font-color-nav" aria-current="page" href="Home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link mx-lg-2 font-color-nav" href="About">About</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link mx-lg-2 font-color-nav" href="Menu">Menu</a>
             </li>
             <li class="nav-item">

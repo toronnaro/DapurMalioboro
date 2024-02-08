@@ -21,10 +21,6 @@ Route::get('/Home', function () {
     return view('Home');
 });
 
-Route::get('/About', function () {
-    return view('About');
-});
-
 Route::get('/Menu', function () {
     return view('Menu');
 });
