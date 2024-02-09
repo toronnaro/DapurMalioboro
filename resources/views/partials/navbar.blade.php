@@ -8,8 +8,8 @@
         <div class="navbar-nav">
             <a class="nav-link font-text-navbar" href="Home">Home</a>
             <a class="nav-link font-text-navbar" href="About">About</a>
-            <a class="nav-link" href="Menu"">Menu</a>
-            <a class="nav-link" href="Event"">Event</a>
+            <a class="nav-link" href="Menu">Menu</a>
+            <a class="nav-link" href="Event">Event</a>
         </div>
         </div>
     </div>
