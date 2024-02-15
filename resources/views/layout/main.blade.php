@@ -13,45 +13,14 @@
     {{-- css link --}}
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/card.css">
-
-    <!-- Slider -->
-    <style>
-    swiper-container {
-        position: inherit;
-        width: 100%;
-        height: 100%;
-    }
-    swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    swiper-slide2 {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-    }
-    swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    </style>
+    <link rel="stylesheet" href="css/slider.css">
 
     <title>Dapur Malioboro | Home</title>
 </head>
 
 <body>
     @include('partials.navbar')
+    @include('partials.slider')
 
     <div class="container mt-4">
         @yield('container')
@@ -63,5 +32,6 @@
     </script>
     <script src="script.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
 </body>
 </html>
