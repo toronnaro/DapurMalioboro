@@ -8,13 +8,43 @@
     <link rel="stylesheet" href="css/card.css">
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Slider -->
+<style>
+swiper-container {
+    position: inherit;
+    width: 100%;
+    height: 100%;
+}
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+swiper-slide2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+</style>
     <title>dapur Malioboro | Home</title>
 </head>
 <body>
     @extends('layout.main')
     @section('container')
-    {{-- swiper --}}
-
     {{-- about --}}
     <div class="about">
         <p class="font-about-title">TENTANG DAPUR MALIOBORO</p>

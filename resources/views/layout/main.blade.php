@@ -13,12 +13,14 @@
     {{-- css link --}}
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/slider.css">
 
     <title>Dapur Malioboro | Home</title>
 </head>
 
 <body>
     @include('partials.navbar')
+    @include('partials.slider')
 
     <div class="container mt-4">
         @yield('container')
@@ -30,5 +32,6 @@
     </script>
     <script src="script.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
 </body>
 </html>
