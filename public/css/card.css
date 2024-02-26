@@ -430,3 +430,79 @@
         font-size: 20px;
         cursor: pointer;
     }
+    
+    /* Partners */
+
+    .social__images {
+        border-radius: 20px;
+        width: 20%;
+        padding-top: 1rem;
+      }
+
+      .contact__title {
+        padding-top: 5rem;
+        text-align: center;
+        text-shadow: 20px;
+        font-size: 3rem;
+        font-weight: 600;
+      }
+      .contact__subtitle {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: -20px;
+        text-shadow: 5px;
+        font-weight: 500;
+        font-size: 1rem;
+        padding-bottom: 2rem;
+      }
+      
+      .social__subtext {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: -20px;
+        text-shadow: 5px;
+        font-weight: 500;
+        font-size: 1rem;
+        font-weight: bold;
+        padding-bottom: 3rem;
+      }
+      
+      .social__title {
+        text-align: center;
+        text-shadow: 20px;
+        font-size: 3rem;
+        font-weight: 600;
+      }
+      .discover__title {
+        padding-top: 5rem;
+        text-align: center;
+        text-shadow: 20px;
+        font-size: 3rem;
+        font-weight: 600;
+      }
+      
+      .discover__subtext {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: -20px;
+        text-shadow: 5px;
+        font-weight: 500;
+        font-size: 1rem;
+        padding-bottom: 2rem;
+      }
+      
+      .card-title {
+        font-size: 16px;
+      }
+      .card {
+        border: 0;
+      }
+      
+      .card-img-top {
+        max-width: 100%;
+      }
+
+      .col {
+        flex-basis: 25%;
+        padding: 9px;
+      }

@@ -37,7 +37,7 @@
                 <a class="nav-link mx-lg-2 font-color-nav" href="Contact">Contact Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link mx-lg-2 font-color-nav" href="Partners">Partenrs</a>
+                <a class="nav-link mx-lg-2 font-color-nav" href="Partners">Partners</a>
             </li>
             </ul>
         </div>
